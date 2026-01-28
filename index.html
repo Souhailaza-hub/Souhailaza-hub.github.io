@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <!-- Google Fonts: Caveat for handwriting, Quicksand for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩷</text></svg>">
+</head>
+
+<body>
+
+    <!-- Floating Background Hearts Container -->
+    <div id="hearts-container"></div>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+        <a href="#intro" class="nav-link">
+            <img src="assets/home_cat.png" alt="Home" class="nav-icon">
+            Home
+        </a>
+        <a href="#letters" class="nav-link">
+            <img src="assets/letters_cat.png" alt="Letters" class="nav-icon">
+            Letters
+        </a>
+        <a href="#favorites" class="nav-link">
+            <img src="assets/loves_cat.png" alt="Loves" class="nav-icon">
+            Loves
+        </a>
+        <a href="#us" class="nav-link">
+            <img src="assets/us_cat.png" alt="Us" class="nav-icon">
+            Us
+        </a>
+        <a href="#promises" class="nav-link">
+            <img src="assets/promises_cat.png" alt="Promises" class="nav-icon">
+            Promises
+        </a>
+    </nav>
+
+    <main class="container">
+        <!-- Sections will go here -->
+        <header id="intro" class="section intro-section">
+            <h1 class="handwritten-title">For Erij</h1>
+            <p class="subtitle">A little place for us.</p>
+        </header>
+
+        <!-- Letters Section -->
+        <section id="letters" class="section letters-section">
+            <h2 class="handwritten-title">Letters to You</h2>
+            <div class="letters-grid">
+                <!-- More placeholders -->
+                <div class="letter-card">
+                    <span class="letter-date">January 28, 2026</span>
+                    <p class="letter-preview">Hatha cadeau sa8roun i hope you like it</p>
+                    <div class="full-letter-content" style="display: none;">
+                        <p>5mmt fi ama haja haka jdida n3mlha wa nbdl baha el 7ajat el tabi3iya eli dima n3ml faha.</p>
+                        <p>So 9arrt eli n3ml site htha a place for us koll ma n5mm fi haja nji nktbha wa most9blan bach
+                            nzid faza
+                            eli enty tnjm tktb wa ttsjl direct ama lzmha wa9t 5tr lzmni nrigl el setup mt3 database i
+                            hope you love it.</p>
+                    </div>
+                    <button class="read-more">Read</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Structure -->
+        <div id="letter-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <span id="modal-date" class="letter-date"></span>
+                <div id="modal-text"></div>
+            </div>
+        </div>
+
+        <!-- Things She Loves Section -->
+        <section id="favorites" class="section favorites-section">
+            <h2 class="handwritten-title">Things You Love</h2>
+            <div class="favorites-list">
+                <div class="favorite-item">
+                    <img src="things%20she%20loves/Bouquet%201.jpg" alt="Flowers" class="favorite-img">
+                    <h3>Flowers</h3>
+                    <p>Because you deserve them every day.</p>
+                </div>
+                <div class="favorite-item">
+                    <img src="things%20she%20loves/Red%20bull.jpg" alt="Energy" class="favorite-img">
+                    <h3>Redbull</h3>
+                    <p>Hathi haja lazma hhhh.</p>
+                </div>
+                <div class="favorite-item">
+                    <img src="things%20she%20loves/Ferrero%20Rocher.jpg" alt="Chocolate" class="favorite-img">
+                    <h3>Sweet Treats</h3>
+                    <p>Sweetness for my sweet.</p>
+                </div>
+                <!-- Adding other images -->
+                <div class="favorite-item">
+                    <img src="things%20she%20loves/Anitta.jpg" alt="Anitta" class="favorite-img">
+                    <h3>Anitta</h3>
+                    <p>Ma nansach 7obk el awl hhhh.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Us Section -->
+        <section id="us" class="section us-section">
+            <h2 class="handwritten-title">Us</h2>
+            <div class="us-content">
+                <p>Hthi hajat m3ndhch 3la9a bl photos (yomkn fil most9bl nzidoha), ama for now just the moments we keep
+                    just for ourselves.</p>
+                <div class="memory-list">
+                    <p class="memory">Mazlt ntfkr the last hug w9tha maknch a9wa haja hhh ama ey kan cute.</p>
+                    <p class="memory">your nails (even tho maswrtlich lik brcha) haja perfecttt ysssrr </p>
+                    <p class="memory">s7i7 s3at fi el appel nb9o saktin ama i love it hka man3rfch lach ama dima bch
+                        n5tarha over ena ma nkounouch fi appel asln hhhh.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comfort Section -->
+        <section id="comfort" class="section comfort-section">
+            <h2 class="handwritten-title">When You Miss Me</h2>
+            <div class="comfort-card">
+                <p>Take a deep breath.</p>
+                <p>I am with you even when I'm not there just call me wa dima bch tl9ani nchallah.</p>
+                <p>Everything will be okay.</p>
+            </div>
+        </section>
+        <!-- Promises Section -->
+        <section id="promises" class="section promises-section">
+            <h2 class="handwritten-title">My Promises</h2>
+            <ul class="promises-list">
+                <li>I promise to listen even when it's hard wala fi mochkla .</li>
+                <li>I promise to always make time for us wa deja enty .</li>
+                <li>I promise to be your safe space wa fkrt eli bch njudgik or make you uncomfortable hathi ma n3mlhach.
+                </li>
+                <li>I promise to choose you every single day wa every single life zada.</li>
+            </ul>
+        </section>
+
+        <!-- Future Section -->
+        <section id="future" class="section future-section">
+            <h2 class="handwritten-title">What's Next?</h2>
+            <p>for now n5mm nzid Notes lik enty bach tktbhom waa ytzado fil site wa fil most9bl we must add our photos.
+            </p>
+            <div class="signature">
+                <p>Love,</p>
+                <p class="my-name">Me</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
